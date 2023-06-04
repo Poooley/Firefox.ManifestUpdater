@@ -1,0 +1,10 @@
+ingress:
+  path: /firefox
+  affinity: false
+  
+persistence:
+  enabled: false
+
+autoscaling:
+  hpa:
+    enabled: true
