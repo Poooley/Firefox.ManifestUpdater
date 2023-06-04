@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: Poooley/K8s.Pipelines/Build.NET@main
       with:
-        PROJECT_PATH: /
+        PROJECT_PATH: .
         SERVICE_NAME: "nginx-manifestupdater"
         DOCKER_TOKEN: ${{ secrets.ACTION_TOKEN }}
 
