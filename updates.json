@@ -21,6 +21,16 @@
                             "strict_min_version": "44"
                         }
                     }
+                },
+                {
+                    "version": "1.5",
+                    "update_link": "https://k8s.haidinger.me/firefox/versions/e9681515126740c5a0d1-1.5.xpi",
+                    "update_hash": "sha256:042f4bcd709abff7918e025cb9ea8cc5ba152a276280ac7f498525605e426e86",
+                    "applications": {
+                        "gecko": {
+                            "strict_min_version": "44"
+                        }
+                    }
                 }
             ]
         }
